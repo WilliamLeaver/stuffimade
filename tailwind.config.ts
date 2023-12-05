@@ -8,13 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        pop: {
+          "75%, 100%": { transform: "scale(2);opacity: 0" },
+        }
       },
+      animation: {
+        pop: "pop 1s cubic-bezier(0, 0, 0.2, 1)"
+      }
+    },
+    backgroundImage: {
+      'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      'gradient-conic':
+        'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
+
 export default config
