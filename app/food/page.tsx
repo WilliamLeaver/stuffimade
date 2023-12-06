@@ -13,7 +13,7 @@ interface Food {
   
 const page = () => {
   return (
-    <div className="grid sm:grid-cols-4 gap-5">
+    <div className="grid sm:grid-cols-4 xl:grid-cols-5 gap-5">
         {foodData.map((food: Food) => 
             <FoodCard key={food.id} food={food}/>
         )}
