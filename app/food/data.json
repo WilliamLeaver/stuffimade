@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "foodName": "Breakfast Hash",
+        "imagePath": "/Hash.jpg",
+        "foodLink": ""
+    },
+    {
+        "id": 1,
+        "foodName": "Blueberry Muffins",
+        "imagePath": "/Blueberry.jpg",
+        "foodLink": ""
+    },
+    {
+        "id": 2,
+        "foodName": "🐔 and Dumplings",
+        "imagePath": "/C&D.jpg",
+        "foodLink": ""
+    },
+    {
+        "id": 3,
+        "foodName": "Tomato Chicken Sausage Cavatappi",
+        "imagePath": "/CreamyPepper.jpg",
+        "foodLink": "https://www.everyplate.com/recipes/tomato-chicken-sausage-cavatappi-63c5c18f10a842ff100c0c62"
+    },
+    {
+        "id": 4,
+        "foodName": "Zucchini and Pork Sausage Penne",
+        "imagePath": "/SausagePenne.jpg",
+        "foodLink": "https://www.everyplate.com/recipes/zucchini-and-pork-sausage-penne-654108b1ca9e0b755b9ea848"
+    }
+]
