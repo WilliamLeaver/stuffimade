@@ -1,8 +1,11 @@
 import React from 'react'
+import WebCard from '../components/WebCard'
 
 const page = () => {
   return (
-    <div>websites</div>
+    <div>
+        <WebCard/>
+    </div>
   )
 }
 
