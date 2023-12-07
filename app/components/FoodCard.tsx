@@ -18,7 +18,7 @@ const FoodCard: React.FC<FoodCardProps> = ({ food }) => {
     return (
         <div className="card rounded-3xl bg-base-100 w-full h-full">
             <Image className="border-4 border-base-100 rounded-2xl" src={food.imagePath} width={500} height={500} alt="Breakfast hash" />
-            <div className='flex p-5'>
+            <div className='flex p-5 text-center'>
                 {food.foodLink == "" ? (
                     <h1 className="font-bold text-white bg-slate-700 rounded-2xl p-5 w-full">{food.foodName}</h1>
                 ) : (
