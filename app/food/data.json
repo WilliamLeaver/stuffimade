@@ -2,91 +2,91 @@
     {
         "id": 0,
         "foodName": "Breakfast Hash",
-        "imagePath": "/Hash.jpg",
+        "imagePath": "/static/images/Hash.jpg",
         "foodLink": ""
     },
     {
         "id": 1,
         "foodName": "Blueberry Muffins",
-        "imagePath": "/Blueberry.jpg",
+        "imagePath": "/static/images/Blueberry.jpg",
         "foodLink": ""
     },
     {
         "id": 2,
         "foodName": "🐔 and Dumplings",
-        "imagePath": "/C&D.jpg",
+        "imagePath": "/static/images/C&D.jpg",
         "foodLink": ""
     },
     {
         "id": 3,
         "foodName": "Tomato Chicken Sausage Cavatappi",
-        "imagePath": "/CreamyPepper.jpg",
+        "imagePath": "/static/images/CreamyPepper.jpg",
         "foodLink": "https://www.everyplate.com/recipes/tomato-chicken-sausage-cavatappi-63c5c18f10a842ff100c0c62"
     },
     {
         "id": 4,
         "foodName": "Zucchini and Pork Sausage Penne",
-        "imagePath": "/SausagePenne.jpg",
+        "imagePath": "/static/images/SausagePenne.jpg",
         "foodLink": "https://www.everyplate.com/recipes/zucchini-and-pork-sausage-penne-654108b1ca9e0b755b9ea848"
     },
     {
         "id": 5,
         "foodName": "Broccoli Cheddar Penne Bake",
-        "imagePath": "/CheesyBroc.jpg",
+        "imagePath": "/static/images/CheesyBroc.jpg",
         "foodLink": "https://www.everyplate.com/recipes/gooey-broccoli-cheddar-penne-bake-5f52340ecdc78f24190caa8b"
     },
     {
         "id": 6,
         "foodName": "Italian Bread",
-        "imagePath": "/ItalianBread.jpg",
+        "imagePath": "/static/images/ItalianBread.jpg",
         "foodLink": ""
     },
     {
         "id": 7,
         "foodName": "Beef Banh Mi Bowls",
-        "imagePath": "/BeefBowl.jpg",
+        "imagePath": "/static/images/BeefBowl.jpg",
         "foodLink": "https://www.everyplate.com/recipes/beef-banh-mi-bowls-62de9e26a45dea22ec0e69a3"
     },
     {
         "id": 8,
         "foodName": "Jalapeño Poppers 🔥",
-        "imagePath": "/JalPopper.jpg",
+        "imagePath": "/static/images/JalPopper.jpg",
         "foodLink": ""
     },
     {
         "id": 9,
         "foodName": "Cheesy Gnocchi Bake",
-        "imagePath": "/GnocchiBake.jpg",
+        "imagePath": "/static/images/GnocchiBake.jpg",
         "foodLink": "https://www.everyplate.com/recipes/cheesy-gnocchi-bake-5fa55cef7511fc2549429db0"
     },
     {
         "id": 10,
         "foodName": "Firehouse Mac ’n’ Cheese",
-        "imagePath": "/FirehouseMac.jpg",
+        "imagePath": "/static/images/FirehouseMac.jpg",
         "foodLink": "https://www.everyplate.com/recipes/firehouse-mac-n-cheese-601422cef8279077bf6dae4b"
     },
     {
         "id": 11,
         "foodName": "Lemon Chicken Soup",
-        "imagePath": "/LemonChicken.jpg",
+        "imagePath": "/static/images/LemonChicken.jpg",
         "foodLink": ""
     },
     {
         "id": 12,
         "foodName": "Sticky Buns",
-        "imagePath": "/StickyBuns.jpg",
+        "imagePath": "/static/images/StickyBuns.jpg",
         "foodLink": "https://www.joshuaweissman.com/post/sticky-buns"
     },
     {
         "id": 13,
         "foodName": "Cheesy Corn Bisque",
-        "imagePath": "/CheesyCorn.jpg",
+        "imagePath": "/static/images/CheesyCorn.jpg",
         "foodLink": "https://www.everyplate.com/recipes/cheesy-corn-bisque-5f11b484eadf015d8a5e8da0"
     },
     {
         "id": 14,
         "foodName": "Creamy Dijon Chicken",
-        "imagePath": "/CreamyDijon.jpg",
+        "imagePath": "/static/images/CreamyDijon.jpg",
         "foodLink": "https://www.everyplate.com/recipes/creamy-dijon-chicken-5ff75d6e2ebdf4509d5211f7"
     }
 ]
