@@ -5,6 +5,10 @@ const page = () => {
   return (
     <div>
         <WebCard/>
+        <WebCard/>
+        <WebCard/>
+        <WebCard/>
+        <WebCard/>
     </div>
   )
 }
