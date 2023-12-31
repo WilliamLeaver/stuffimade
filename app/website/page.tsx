@@ -3,7 +3,7 @@ import WebCard from '../components/WebCard'
 
 const page = () => {
   return (
-    <div>
+    <div className=''>
         <WebCard/>
         <WebCard/>
         <WebCard/>

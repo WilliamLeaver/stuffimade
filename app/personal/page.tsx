@@ -1,12 +1,24 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
+
 const space = "                               ";
 const page = () => {
   return (
     <div className="h-full sm:w-full text-white rounded-2xl flex flex-col sm:justify-center items-center">
       <div className='p-4 rounded-2xl bg-base-100'>
         <p className='font-bold text-6xl text-center underline underline-offset-2 decoration-2 decoration-wavy'>Hey look at me! This is my Info</p>
-        <div className=" h-36"/>
+        <div className="h-52 md:h-36 flex flex-row">
+          <div className='basis-1/2 lg:basis-3/4 flex flex-col items-center'>
+            <h1 className='h-min  pt-5 text-4xl font-extrabold'>William Leaver</h1>
+            <p className='h-min'>184 Overlook Drive, Pensacola, FL, 32503</p>
+            <p className='h-min'>317-650-6278 | William.Leaver.IT@gmail.com</p>
+          </div>
+          <div className='lg:basis-1/4 flex flex-col md:flex-row items-center justify-between'>
+            <Link href="https://github.com/WilliamLeaver" className="btn btn-rounded bg-teal-700 hover:base-200 focus:animate-pop rounded-full w-fit h-min p-2"><img className="rounded-full " src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" width={100} height={100}/></Link>
+            <Link href="https://www.linkedin.com/in/william-leaver-a79bb31ba/" className="btn btn-rounded bg-teal-700 hover:base-200 focus:animate-pop rounded-full w-fit h-min p-2"><Image className="rounded-full" src="/linkedin.svg" alt="" width={100} height={100}/></Link>
+          </div>
+        </div>
         <div className="join join-vertical w-full h-full">
           <div className="collapse collapse-arrow join-item border-b-2  border-dotted hover:bg-base-300">
             <input type="checkbox" name="stats"/>
