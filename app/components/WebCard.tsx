@@ -30,7 +30,7 @@ const WebCard = () => {
           <div className="mr-2 w-0 invisible sm:visible sm:w-auto">
             <a href="#slide4" className="btn btn-circle bg-teal-700 text-white">❮</a>
           </div>
-          ) : (<div className="w-0 invisible"/>)}
+          ) : null}
           <div className="carousel flex items-center">
             <Image src={Web.ImagePaths[0]} alt="Website Image should be here" width={3000} height={3000} className="w-full rounded-2xl" />         
           </div>
@@ -38,7 +38,7 @@ const WebCard = () => {
           <div className="mr-2 w-0 invisible sm:visible sm:w-auto">
             <a href="#slide4" className="btn btn-circle bg-teal-700 text-white">❮</a>
           </div>
-          ) : (<div className="w-0 invisible"/>)}
+          ) : null}
         </div>
       </div>
       <div className="flex flex-col basis-1/2 items-center justify-evenly">
