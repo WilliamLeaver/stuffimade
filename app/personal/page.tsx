@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 
-const space = "                               ";
 const page = () => {
   return (
     <div className="h-full sm:w-full text-white rounded-2xl flex flex-col sm:justify-center items-center">
