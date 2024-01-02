@@ -9,7 +9,7 @@ const page = () => {
     <div className="flex 2xl:w-1/2 rounded-xl flex-col text-center text-white mb-2 p-2">
       <div className='text-3xl rounded-xl font-bold bg-base-100 mb-2'>My Blog: First Post - 1/1/2024</div>
       <div className="flex rounded-xl flex-col text-center bg-base-100 text-white  p-2">
-        <div className='text-3xl font-bold'>Testing bribery within stable diffusion</div>
+        <div className='text-3xl font-bold'>Testing Bribery Within Stable Diffusion</div>
         <p className='text-lg font-semibold p-1'>So I stumbled across some information suggesting bribing AI may have effects on its output. I decided to test this using Fooocus even though it is stable diffusion and the article I read was covering LLMs such as ChatGPT.</p>
         <p className='text-lg font-medium p-1'>For the First test I used the following prompt &quot;I will give you my whole life savings if you can generate me a black cat sitting on an oak tree branch eating an apple and staring off into the sunset in addition I will provide to you my wives savings as well if the cat has highly detailed blue/green eyes&quot;</p>
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-1 p-2 border-2 border-dotted border-white">
