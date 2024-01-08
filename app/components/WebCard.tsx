@@ -6,16 +6,18 @@ interface Website {
   Title: string
   ImagePaths: Array<string>
   TechnologiesPaths: Array<string>
+  TechnologiesLinks: Array<string>
   Description: string
   WebsiteLink: string
 }
 
 let Web: Website = {
-  Title: "EvrClrMind",
-  ImagePaths: ["/EvrClr.png"],
-  TechnologiesPaths: ["https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"],
-  Description: "I created this small website as a test of Stable Diffusion & Prompt Engineering. All of the photos were generated using Fooocus running locally. This was also my first dive into using component libraries like DaisyUI.",
-  WebsiteLink: "https://evr-clr-mind-3vu2.vercel.app/#item1"
+  Title: "Applets",
+  ImagePaths: ["/Applets.png"],
+  TechnologiesPaths: ["https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg", "/nextJS.svg"],
+  TechnologiesLinks: ["https://tailwindcss.com/docs/installation", "https://nextjs.org/docs/getting-started"],
+  Description: "I created this website as a place to upload any smaller projects that I work on / games.",
+  WebsiteLink: "https://applets-ebon.vercel.app/"
 }
 
 
@@ -46,8 +48,9 @@ const WebCard = () => {
         <div className="h-min p-10 rounded-2xl bg-slate-700 text-white">{Web.Description}</div>
         {/* Start of Technologies*/}
         <div className="rounded-2xl w-min h-min bg-slate-700 flex mt-4 p-10">
-          <Link href="https://tailwindcss.com/docs/installation" className="btn mx-2 h-20 w-20 p-2 btn-circle bg-teal-700 border-teal-700 focus:animate-pop"><Image className="" src={Web.TechnologiesPaths[0]} alt="T" width={200} height={200}></Image></Link>
-          <Link href="https://tailwindcss.com/docs/installation" className="btn mx-2 h-20 w-20 p-2 btn-circle bg-teal-700 border-teal-700"><Image className="" src={Web.TechnologiesPaths[0]} alt="T" width={200} height={200}></Image></Link>
+          {Web.TechnologiesPaths.map((path, index) =>
+          <Link href={Web.TechnologiesLinks[index]} className="btn mx-2 h-20 w-20 p-2 btn-circle bg-teal-700 border-teal-700 focus:animate-pop"><Image className="" src={path} alt="T" width={200} height={200}></Image></Link>
+          )}
         </div>
       </div>
     </div>

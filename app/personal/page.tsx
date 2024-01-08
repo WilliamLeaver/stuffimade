@@ -10,7 +10,6 @@ const page = () => {
         <div className="h-52 md:h-36 flex flex-row">
           <div className='basis-1/2 flex flex-col items-center'>
             <h1 className='h-min  pt-5 text-4xl font-extrabold'>William Leaver</h1>
-            <p className='h-min'>184 Overlook Drive, Pensacola, FL, 32503</p>
             <p className='h-min'>317-650-6278 | William.Leaver.IT@gmail.com</p>
           </div>
           <div className='basis-1/2 flex flex-col md:flex-row items-center justify-evenly'>
