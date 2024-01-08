@@ -49,7 +49,7 @@ const WebCard = () => {
         {/* Start of Technologies*/}
         <div className="rounded-2xl w-min h-min bg-slate-700 flex mt-4 p-10">
           {Web.TechnologiesPaths.map((path, index) =>
-          <Link href={Web.TechnologiesLinks[index]} className="btn mx-2 h-20 w-20 p-2 btn-circle bg-teal-700 border-teal-700 focus:animate-pop"><Image className="" src={path} alt="T" width={200} height={200}></Image></Link>
+          <Link key={index} href={Web.TechnologiesLinks[index]} className="btn mx-2 h-20 w-20 p-2 btn-circle bg-teal-700 border-teal-700 focus:animate-pop"><Image className="" src={path} alt="T" width={200} height={200}></Image></Link>
           )}
         </div>
       </div>
