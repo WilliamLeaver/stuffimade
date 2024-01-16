@@ -1,5 +1,5 @@
 import React from 'react'
-import FoodCard from '../components/FoodCard'
+import FoodCard from './FoodCard'
 import { getFoodData } from '@/lib/data';
 
 const foodData = getFoodData();

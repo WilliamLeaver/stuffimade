@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "Title": "Applets",
+        "ImagePaths": "/Applets.png",
+        "TechnologiesPaths": ["https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg", "/nextJS.svg"],
+        "TechnologiesLinks": ["https://tailwindcss.com/docs/installation", "https://nextjs.org/docs/getting-started"],
+        "Description": "I created this website as a place to upload any smaller projects that I work on / games.",
+        "WebsiteLink": "https://applets-ebon.vercel.app/"
+    },
+    {
+        "id": 1,
+        "Title": "SpriteSheet Cutter",
+        "ImagePaths": "/SpriteSheet.png",
+        "TechnologiesPaths": ["/plume.png", "https://python-pillow.org/assets/images/pillow-logo-248x250.png","https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"],
+        "TechnologiesLinks": ["https://docs.python.org/3/library/tkinter.html", "https://pillow.readthedocs.io/en/stable/","https://docs.python.org/3/tutorial/index.html"],
+        "Description": "This project was created to help sprite sheet artists cut their spritesheets down to either individual sprites or just remove divider lines from their spritesheets. The UI for this project was created using Tkinter and ttkbootstrap and the image processing was done using Pillow.",
+        "WebsiteLink": "https://drive.google.com/file/d/1S6UTNk3HPSg_u6JZS8BISMYrSCA4jFNz/view?usp=drive_link"
+    }
+
+    
+]

@@ -7,3 +7,10 @@ export const getFoodData = () => {
   const foodData = JSON.parse(jsonData);
   return foodData;
 };
+
+export const getProjectData = () => {
+  const filePath = path.join(process.cwd(), '/app/thingsimade/data.json');
+  const jsonData = fs.readFileSync(filePath, 'utf-8');
+  const foodData = JSON.parse(jsonData);
+  return foodData;
+};
