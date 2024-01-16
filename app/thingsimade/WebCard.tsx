@@ -25,7 +25,7 @@ const WebCard: React.FC<WebCardProps> = ({ Web }) => {
         <div className="flex flex-row h-full justiy-center items-center p-2 text-center text-white">
           <div className="">
             <Image src={Web.ImagePaths} alt="Website Image should be here" width={3000} height={3000} className="w-full rounded-2xl" />         
-          </div>=
+          </div>
         </div>
       </div>
       <div className="flex flex-col basis-1/2 items-center justify-start ml-2">
