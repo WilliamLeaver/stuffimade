@@ -19,16 +19,16 @@ interface WebCardProps {
 const WebCard: React.FC<WebCardProps> = ({ Web }) => {
   return (
     <div className="card my-2 p-3 flex-col 2xl:flex-row rounded-3xl bg-base-100 w-full h-full">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-start h-full">
         {/* Start of carousel*/}
         <Link href={Web.WebsiteLink} className="w-full h-min bg-teal-700 rounded-2xl m-2 p-2 text-center text-white whitespace-nowrap font-bold focus:animate-pop">{Web.Title}</Link>
-        <div className="flex flex-row items-center p-2 rounded-2xl  text-center text-black">
-          <div className="flex items-center">
+        <div className="flex flex-row h-full justiy-center items-center p-2 text-center text-white">
+          <div className="">
             <Image src={Web.ImagePaths} alt="Website Image should be here" width={3000} height={3000} className="w-full rounded-2xl" />         
-          </div>
+          </div>=
         </div>
       </div>
-      <div className="flex flex-col basis-1/2 items-center justify-evenly">
+      <div className="flex flex-col basis-1/2 items-center justify-start ml-2">
         {/* Start of Description*/}
         <div className="h-min p-10 rounded-2xl bg-slate-700 text-white">{Web.Description}</div>
         {/* Start of Technologies*/}
