@@ -3,7 +3,7 @@
         "id": 0,
         "Title": "Applets",
         "ImagePaths": "/Applets.png",
-        "TechnologiesPaths": ["https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg", "/nextJS.svg"],
+        "TechnologiesPaths": ["https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg", "/nextjs.svg"],
         "TechnologiesLinks": ["https://tailwindcss.com/docs/installation", "https://nextjs.org/docs/getting-started"],
         "Description": "I created this website as a place to upload any smaller projects that I work on / games.",
         "WebsiteLink": "https://applets-ebon.vercel.app/"

@@ -6,20 +6,22 @@ const page = () => {
   return (
     <div className="h-full sm:w-full text-white rounded-2xl flex flex-col sm:justify-center items-center">
       <div className='shadow-sm shadow-slate-500 p-4 rounded-2xl bg-base-100'>
-        <p className='font-bold text-6xl text-center underline underline-offset-2 decoration-2 decoration-wavy'>Hey look at me! This is my Info</p>
+        {/*<p className='mb-2 font-bold text-6xl text-center underline underline-offset-2 decoration-2 decoration-wavy'>Hey look at me! This is my Info</p>*/}
         <div className="h-52 md:h-36 flex flex-row">
-          <div className='basis-1/2 flex flex-col items-center'>
-            <h1 className='h-min  pt-5 text-4xl font-extrabold'>William Leaver</h1>
-            <p className='h-min'>317-650-6278 | William.Leaver.IT@gmail.com</p>
+          <div className="basis-1/4"></div>
+          <div className='shadow-inner shadow-slate-600 rounded-xl basis-1/4 my-2 flex flex-col items-center text-center bg-slate-700'>
+            <h1 className='h-min pt-2 text-4xl font-extrabold'>William Leaver</h1>
+            <p className='h-min'>William.Leaver.IT@gmail.com</p>
             <p className='h-min'>Local to Pensacola, FL</p>
+            <p className='h-min'>317-650-6278</p>
           </div>
           <div className='basis-1/2 flex flex-col md:flex-row items-center justify-evenly'>
             <Link href="https://github.com/WilliamLeaver" className="shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-400 btn-rounded bg-teal-700 focus:animate-pop rounded-full w-fit h-min p-2"><img className="rounded-full " src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" width={100} height={100} /></Link>
             <Link href="https://www.linkedin.com/in/william-leaver-a79bb31ba/" className="shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-400 btn-rounded bg-teal-700 focus:animate-pop rounded-full w-fit h-min p-2"><Image className="rounded-full" src="/linkedin.svg" alt="" width={100} height={100} /></Link>
           </div>
         </div>
-        <div className="join join-vertical w-full h-full">
-          <div className="collapse collapse-arrow join-item border-b-2  border-dotted hover:bg-base-300">
+        <div className="mt-4 mb-2 rounded-xl bg-slate-700 shadow-inner shadow-slate-600 join join-vertical w-full h-full">
+          <div className="hover:bg-slate-600 collapse collapse-arrow join-item border-b-2  border-dotted ">
             <input type="checkbox" name="stats" />
             <div className='collapse-title w-min rounded-3xl font-bold text-4xl text-left'>Education</div>
             <div className='collapse-content'>
@@ -37,10 +39,23 @@ const page = () => {
             </div>
           </div>
 
-          <div className="collapse collapse-arrow join-item hover:bg-base-300">
+          <div className="collapse collapse-arrow join-item hover:bg-slate-600">
             <input type="checkbox" name="stats" />
             <div className='collapse-title w-min rounded-3xl font-bold text-4xl text-left'>Experience</div>
             <div className='collapse-content'>
+
+              <p className='px-3 text-xl font-semibold'>Freelance | Pensacola, FL</p>
+              <p className='font-extrabold px-3'>11/2023-Present</p>
+              <p className='px-3 italic font-medium'>Software Developer</p>
+
+              <p className='px-5 font-light'>› Gather and analyze client requirements to develop a thorough understanding of project needs.</p>
+              <p className='px-5 font-light'>› Research and design software solutions according to client specifications, ensuring alignment with project objectives and delivering tailored solutions that meet or exceed client expectations.</p>
+              <p className='px-5 font-light'>› Maintain proactive communication with clients by providing regular updates on development progress, ensuring transparency and client satisfaction throughout the project lifecycle.</p>
+              <p className='px-5 font-light'>› Conduct rigorous testing and debugging of software projects to identify and resolve issues before submission to clients for review, ensuring the delivery of high-quality products.</p>
+              <p className='px-5 font-light'>› Collaborate with fellow developers on diverse projects, engaging in peer programming sessions to offer guidance, fostering a collaborative environment, and enhancing productivity.</p>
+
+
+              <div className='border-b my-2' />
 
               <p className='px-3 text-xl font-semibold'>VantagePoint Ai LLC | Tampa, FL</p>
               <p className='font-extrabold px-3'>04/2022-Present</p>
@@ -75,7 +90,7 @@ const page = () => {
 
             </div>
           </div>
-          <div className="collapse collapse-arrow join-item border-t-2 border-dotted hover:bg-base-300">
+          <div className="collapse collapse-arrow join-item border-t-2 border-dotted hover:bg-slate-600">
             <input type="checkbox" name="stats" />
             <div className='collapse-title w-min rounded-3xl font-bold text-4xl text-left'>Skills</div>
             <div className='collapse-content'>
@@ -104,18 +119,18 @@ const page = () => {
                       <td className='w-1/2 text-center font-bold'>Database Technologies</td>
                       <td className='w-1/2 text-center'>SQL, MySQL, PostgreSQL, SQLite3, NoSQL (MongoDB)</td>
                     </tr>
-                     {/* row 4 */}
-                     <tr>
+                    {/* row 4 */}
+                    <tr>
                       <td className='w-1/2 text-center font-bold'>Systems & Tools</td>
                       <td className='w-1/2 text-center'>Windows, macOS, Linux, Git, Docker, Continuous Integration, PowerShell CLI</td>
                     </tr>
-                     {/* row 5 */}
-                     <tr>
+                    {/* row 5 */}
+                    <tr>
                       <td className='w-1/2 text-center font-bold'>Cloud Platforms</td>
                       <td className='w-1/2 text-center'>Salesforce, AWS Lambda, Kubernetes, IoT</td>
                     </tr>
-                     {/* row 6 */}
-                     <tr>
+                    {/* row 6 */}
+                    <tr>
                       <td className='w-1/2 text-center font-bold'>Operations and Support</td>
                       <td className='w-1/2 text-center'>Inventory, Schedules, SDLC, Agile, Problem-solving, De-escalation</td>
                     </tr>

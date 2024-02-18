@@ -13,7 +13,7 @@ const Post2 = () => {
         <div className='text-2xl font-bold underline'>The Starter Stuff</div>
 
         <p className='text-lg font-medium'>Okay. Lets get the basics out of the way. Starting with Docker... go ahead and use the link below to download docker desktop for whichever OS applies to you.</p>
-        <Link className='btn btn-circle w-1/4 h-full p-3 bg-teal-700' href="https://docs.docker.com/engine/install/" ><Image className='' src="/02-white-docker-logo.svg" alt="Docker Docs Install" width={300} height={96}/></Link>
+        <Link className='btn btn-circle w-1/4 h-full p-3 bg-teal-700 shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-600 hover:bg-teal-700 hover:border-teal-700' href="https://docs.docker.com/engine/install/" ><Image className='' src="/02-white-docker-logo.svg" alt="Docker Docs Install" width={300} height={96}/></Link>
         <p className='text-lg font-medium'>Nice. Welcome to the docker club. Now you can do all kinds of cool stuff! Im not going to get into any technical things here, but you should look into how this stuff works cause it is pretty awesome and a huge step forward from running VMs or an old laptop in the corner of your room.</p>
         <div className='flex flex-col justify-center items-center'>
           <div className='border-2 border-white border-dotted rounded-2xl p-2 w-1/2'>
