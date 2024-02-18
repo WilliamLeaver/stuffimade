@@ -16,8 +16,8 @@ const page = () => {
             <p className='h-min'>317-650-6278</p>
           </div>
           <div className='basis-1/2 flex flex-col md:flex-row items-center justify-evenly'>
-            <Link href="https://github.com/WilliamLeaver" className="shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-400 btn-rounded bg-teal-700 focus:animate-pop rounded-full w-fit h-min p-2"><img className="rounded-full " src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" width={100} height={100} /></Link>
-            <Link href="https://www.linkedin.com/in/william-leaver-a79bb31ba/" className="shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-400 btn-rounded bg-teal-700 focus:animate-pop rounded-full w-fit h-min p-2"><Image className="rounded-full" src="/linkedin.svg" alt="" width={100} height={100} /></Link>
+            <Link href="https://github.com/WilliamLeaver" className="shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-600 btn-rounded bg-teal-700 focus:animate-pop rounded-full w-fit h-min p-2"><img className="rounded-full " src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" width={100} height={100} /></Link>
+            <Link href="https://www.linkedin.com/in/william-leaver-a79bb31ba/" className="shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-600 btn-rounded bg-teal-700 focus:animate-pop rounded-full w-fit h-min p-2"><Image className="rounded-full" src="/linkedin.svg" alt="" width={100} height={100} /></Link>
           </div>
         </div>
         <div className="mt-4 mb-2 rounded-xl bg-slate-700 shadow-inner shadow-slate-600 join join-vertical w-full h-full">
