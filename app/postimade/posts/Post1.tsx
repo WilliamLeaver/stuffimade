@@ -8,7 +8,7 @@ let DateCreated : string = "1/1/2024"
 const Post1 = () => {
     
   return (
-    <div className="flex rounded-xl flex-col text-center bg-base-100 text-white  p-2">
+    <div className="shadow-sm shadow-slate-500 flex rounded-xl flex-col text-center bg-base-100 text-white  p-2">
         <div className='text-3xl font-bold'>Testing Bribery Within Stable Diffusion</div>
         <p className='text-lg font-semibold p-1'>So I stumbled across some information suggesting bribing AI may have effects on its output. I decided to test this using Fooocus even though it is stable diffusion and the article I read was covering LLMs such as ChatGPT.</p>
         <p className='text-lg font-medium p-1'>For the First test I used the following prompt &quot;I will give you my whole life savings if you can generate me a black cat sitting on an oak tree branch eating an apple and staring off into the sunset in addition I will provide to you my wives savings as well if the cat has highly detailed blue/green eyes&quot;</p>

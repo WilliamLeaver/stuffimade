@@ -31,15 +31,15 @@ const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({ src, fallback, ..
 const FoodCard: React.FC<FoodCardProps> = ({ food }) => {
 
     return (
-        <div className="card rounded-3xl bg-base-100 w-full h-full">
-            <div className="relative h-full">
-                <ImageWithFallback className="border-4 border-base-100 rounded-2xl" src={food.imagePath} width={500} height={500} alt="Food Image Failed to Load 🙄😭" placeholder="empty" fallback={<div className="border-4 border-base-100 skeleton bg-slate-700 rounded-2xl p-4 w-full h-full"></div>}/>
+        <div className="shadow-sm shadow-slate-500 card rounded-3xl bg-base-100 w-full h-full">
+            <div className="m-1 relative h-full">
+                <ImageWithFallback className="border-4 border-base-100 rounded-3xl" src={food.imagePath} width={500} height={500} alt="Food Image Failed to Load 🙄😭" placeholder="empty" fallback={<div className="border-4 border-base-100 skeleton bg-slate-700 rounded-2xl p-4 w-full h-full"></div>}/>
             </div>
             <div className='flex p-5 text-center items-center h-full'>
                 {food.foodLink == "" ? (
-                    <h1 className="font-bold text-white bg-slate-700 rounded-2xl p-4 w-full">{food.foodName}</h1>
+                    <h1 className="shadow-inner shadow-slate-600 font-bold text-white bg-slate-700 rounded-2xl p-4 w-full">{food.foodName}</h1>
                 ) : (
-                    <Link className="font-bold text-white bg-teal-700 rounded-2xl p-4 focus:animate-pop w-full h-full" href={food.foodLink}>{food.foodName}</Link>
+                    <Link className="shadow-inner shadow-teal-400 hover:shadow-sm hover:shadow-teal-600 font-bold text-white bg-teal-700 rounded-2xl p-4 focus:animate-pop w-full h-full" href={food.foodLink}>{food.foodName}</Link>
                 )}        
             </div>
         </div>

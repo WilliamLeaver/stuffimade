@@ -19,10 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar/>
-        <div className="flex flex-col items-center rounded-3xl h-full m-4 p-5 bg-gradient-to-t from-slate-700 via-teal-800 to-slate-700">
+        <div className="backdrop-blur-lg flex flex-col items-center rounded-3xl h-full m-4 p-5 bg-gradient-to-t from-slate-700 via-teal-800 to-slate-700">
           {children}
         </div>
-        
       </body>
     </html>
   )
